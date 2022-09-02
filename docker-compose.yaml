@@ -1,6 +1,6 @@
 services:
-  oktetojekyll:
+  snowwebsite:
     build: .
-    shm_size: 2.6gb
+    shm_size: 3gb
     ports:
-      - "80:80"
+      - "8000:80"
